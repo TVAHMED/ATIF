@@ -38,7 +38,7 @@ def logo():
     print(f" {white}{green}[~]{white} Github.        : PRIVATE ")
     print(f" {white}{green}[~]{white} Whatsapp  : 03277025198 Only Paid Promotion ")
     print(f" {white}{green}[~]{white} Status    : {green}Free ")
-    print(f" {white}{green}[~]{white} Version   : 2.6 ")
+    print(f" {white}{green}[~]{white} Version   : 2.9 ")
     print(50*'-')
 #_________[ USER-AGENT LIST GENERATER ]______>>>
 for i in range(2000):
@@ -186,7 +186,7 @@ def bapi(uid,pwx,total):
                     oks.append(uidX)
             elif responce_json['error_code'] == 405:
                 if uid not in cps:
-                    print(f'\r{rad}[AHMED-0k] {uid}     | {pw} {white}')
+                    print(f'\r{green}[AHMED-0k] {uid}     | {pw} {white}')
                     open('/sdcard/AED-OK-txt', 'a').write(uid+'|'+pw+'\n')
                     cps.append(uid)
             else:continue
